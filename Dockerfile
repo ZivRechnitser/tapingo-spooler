@@ -5,6 +5,6 @@ MAINTAINER Ziv Rechnitser <ziv@devops.co.il>
 RUN apk add --update python py-pip
 
 # Copy the application folder inside the container
-ADD /dummyspooler /opt/dummyspooler
+ADD /dummyspooler /dummyspooler
 
 RUN pip install -r /dummyspooler/requirements.txt

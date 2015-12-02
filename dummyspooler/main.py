@@ -28,5 +28,5 @@ class MainHandler(tornado.web.RequestHandler):
 
 if __name__ == '__main__':
     app = tornado.web.Application([(r'^/.*', MainHandler)])
-    app.listen(80)
+    app.listen(1234)
     tornado.ioloop.IOLoop.current().start()

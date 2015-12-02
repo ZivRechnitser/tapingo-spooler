@@ -9,4 +9,4 @@ ADD /dummyspooler /dummyspooler
 
 RUN pip install -r /dummyspooler/requirements.txt
 
-ENTRYPOINT ["python main.py"]
+ENTRYPOINT ["python /dummyspooler/main.py"]
